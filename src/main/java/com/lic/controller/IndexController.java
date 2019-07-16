@@ -14,6 +14,7 @@ public class IndexController {
 
     @RequestMapping("/index")
     public String index(){
+        System.out.println("测试1111");
         return "测试jenkins打包服务是否成功" + new Date();
     }
 }
